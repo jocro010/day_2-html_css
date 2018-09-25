@@ -1,0 +1,99 @@
+#header-style {
+  background-color: red;
+  padding: 10px;
+}
+#nav-style {
+  background-color: grey;
+  padding: 10px;
+}
+
+#nav-style ul {
+  background-color: yellow;
+  padding: 10px;
+}
+
+#nav-style ul li:first-child {
+  background-color: blue;
+  padding: 10px;
+}
+
+.cool-div{
+  background-color: violet;
+  padding: 10px;
+}
+
+.cool-div p{
+  background-color: grey;
+  padding: 10px;
+}
+
+#cool-h1{
+  background-color: purple;
+}
+
+.form-style{
+  width: 500px;
+  /* border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  border-left: 3px dashed purple;
+  border-right: 3px dashed purple; */
+  border: 2px solid purple;
+  /* border-top-style: solid;
+  border-bottom-style: dashed;
+  border-top-width: 3px;
+  border-top-color: red; */
+  /* padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 30px; */
+  /* top, right, bottom, left */
+  padding: 10px 30px 15px 20px;
+  /* margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 35px; */
+  /* margin: 100px 0px 35px 50px; */
+  /* if top and bottom are the same, as well as left and right */
+  /* margin: 30px 20px */
+  margin: 20px auto;
+}
+
+.form-style label{
+  background-color: #5C8CBC;
+}
+
+.nature_image1 img{
+  width: 500px;
+  box-sizing: border-box;
+}
+
+.nature_image2{
+  /* .. => represents one folder up in hierarchy */
+  /* . => represents the current folder */
+  background-image: url("../images/nature_image-road.jpeg");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+.span-style{
+  font-weight: bold;
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+.pos-1{
+  position: absolute;
+  top: 30px;
+}
+
+.nature_image1{
+  overflow: hidden;
+  margin: 10px;
+}
+
+.nature_image1 img{
+  float: left;
+  margin-right: 10px;
+}
